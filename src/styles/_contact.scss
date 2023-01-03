@@ -1,0 +1,145 @@
+#contact {
+    @include section;
+}
+
+#contact-container {
+    @include container;
+    @include grid;
+    margin-right: 47%;
+    margin-left: 53%;
+    grid-template-columns: repeat(2, max-content);
+    justify-content: center;
+    column-gap: 6rem;
+    padding-bottom: 3rem;
+}
+
+#contact-title {
+    margin-top: 20px;
+    text-align: center;
+    font-size: $h3-font-size;
+    font-weight: $font-medium;
+    margin-bottom: 1.5rem;
+}
+
+#contact-info {
+    display: grid;
+    row-gap: 1rem;
+    grid-template-columns: 300px;
+}
+
+#contact-card {
+    background-color: $container-color;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    border-radius: 0.75rem;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+
+    &:hover {
+        background-color: black;
+
+        #contact-card-icon {
+            color: white;
+        }
+        #contact-card-title {
+            color: white;
+        }
+        #contact-card-data {
+            color: white;
+        }
+        #contact-button {
+            color: white;
+        }
+        #contact-button-icon {
+            color: white;
+        }
+    }
+}
+
+#contact-card-icon {
+    font-size: 2rem;
+    color: $title-color;
+    margin-bottom: 0.25rem;
+}
+
+#contact-card-title {
+    font-size: $small-font-size;
+    font-weight: $font-medium;
+    margin-bottom: 5px;
+}
+
+#contact-card-data {
+    font-size: $small-font-size;
+    display: block;
+    margin-bottom: 0.75rem;
+    color: black;
+}
+
+#contact-button {
+    color: black;
+    font-size: $small-font-size;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0.25rem;
+    cursor: pointer;
+}
+
+#contact-button-icon {
+    font-size: 1rem;
+}
+
+#contact-form {
+    width: 360px;
+}
+
+#contact-form-div {
+    position: relative;
+    margin-bottom: 2rem;
+    height: 4rem;
+}
+
+#contact-form-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    background: none;
+    color: $text-color;
+    outline: none;
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    z-index: 1;
+}
+
+#contact-form-tag {
+    position: absolute;
+    top: -0.75rem;
+    left: 1.25rem;
+    font-size: $smaller-font-size;
+    padding: 0.25rem;
+    background-color: #fff;
+    z-index: 10;
+}
+
+#contact-form-area {
+    height: 11rem;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+#contact-alert {
+    position: fixed;
+    left: 2.5rem;
+    bottom: 3rem;
+    background-color: rgb(31, 236, 0);
+    color: black;
+    opacity: 0.8;
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.4rem;
+    z-index: $z-tooltip;
+    transition: .4s;
+}

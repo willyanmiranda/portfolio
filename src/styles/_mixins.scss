@@ -1,0 +1,44 @@
+@mixin section {
+padding: 6rem 0 2rem;
+}
+  
+@mixin section__title {
+font-size: $h1-font-size;
+color: $title-color;
+text-align: center;
+}
+
+@mixin section__subtitle {
+display: block;
+font-size: $small-font-size;
+margin-bottom: 4rem;
+}
+
+@mixin container {
+max-width: 968px;
+margin-left: auto;
+margin-right: auto;
+}
+
+@mixin grid {
+display: grid;
+gap: 1.5rem;
+}
+
+@mixin button {
+display: inline-block;
+background-color: $title-color;
+color: $container-color;
+padding: 15px 22px;
+border-radius: 1rem;
+font-weight: $font-medium;
+}
+
+@mixin button__icon {
+margin-left: 0.5rem;
+}
+
+@mixin button--flex {
+display: inline-flex;
+align-items: center;
+}

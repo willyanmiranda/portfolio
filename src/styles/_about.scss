@@ -1,0 +1,73 @@
+#about {
+    @include section;
+}
+
+#about-container {
+    @include container;
+    @include grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    column-gap: 4rem;
+}
+
+#about-img {
+    width: 350px;
+    border-radius: 1.5rem;
+    justify-self: center;
+}
+
+#about-box {
+    background-color: $container-color;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.75rem;
+    text-align: center;
+    padding: 1rem 0.6rem;
+}
+
+#about-icon {
+    font-size: 1.5rem;
+    color: $title-color;
+    margin-bottom: 0.5rem;
+}
+
+#about-title {
+    font-size: $small-font-size;
+    font-weight: $font-medium;
+}
+
+#about-subtitle {
+    font-size: $tiny-font-size;
+}
+
+#about-description {
+    padding: 0 4rem 0 0;
+    margin-bottom: 2.5rem;
+    width: 472px;
+}
+
+
+#section-title {
+    @include section__title;
+}
+
+#section-subtitle {
+    @include section__subtitle;
+    display: flex;
+    justify-content: center
+}
+
+#button-about {
+    @include button;
+    @include button--flex;
+
+    &:hover {
+        background-color: rgba(0, 0, 0, 0.842);
+    }
+}
+
+#about-info {
+    @include grid;
+    grid-template-columns: repeat(3, 140px);
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+}
