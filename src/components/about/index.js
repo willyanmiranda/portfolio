@@ -10,7 +10,7 @@ const About = () => {
             <span id="section-subtitle">Minha introdução</span>
 
             <div id="about-container">
-                <img src={AboutImg} alt="" id="about-img" />
+                <img src={AboutImg} alt="profile" id="about-img" />
 
                 <div id="about-data">
                     <Info />
