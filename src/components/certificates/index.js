@@ -14,7 +14,7 @@ const Certificates = () => {
                     <span id="certificates-button">Ver mais <i className="uil uil-arrow-right" id="certificates-button-icon"></i> </span>
                 </div>
 
-                <a href="https://www.hackerrank.com/certificates/iframe/256e053ca8dc" target="_blank" rel="help">
+                <a href="https://www.hackerrank.com/certificates/iframe/256e053ca8dc" target="_blank" rel="noopener">
                     <div id="certificates-content">
                         <div>
                             <i className="uil uil-java-script" id="certificates-icon"></i>
@@ -25,7 +25,7 @@ const Certificates = () => {
                     </div>
                 </a>
 
-                <a href="https://www.hackerrank.com/certificates/iframe/1079c7daae0c" target="_blank" rel="help">
+                <a href="https://www.hackerrank.com/certificates/iframe/1079c7daae0c" target="_blank" rel="noopener">
                     <div id="certificates-content">
                         <div>
                             <i className="uil uil-css3-simple" id="certificates-icon"></i>
