@@ -31,7 +31,7 @@ const Contact = () => {
                             </div>
                         </CopyToClipboard>
 
-                    <a href="https://wa.me/+5541999876472?text=Ol%C3%A1!%20Entre%20em%20contato%20com%20o%20Willyan." rel='noopener'>
+                    <a href="https://wa.me/+5541999876472?text=Ol%C3%A1!%20Entre%20em%20contato%20com%20o%20Willyan." rel='noreferrer'>
                         <div id="contact-card">
                             <i className="bx bxl-whatsapp" id="contact-card-icon"></i>
 
@@ -42,7 +42,7 @@ const Contact = () => {
                         </div>
                     </a>
 
-                    <a href='https://www.linkedin.com/in/willyan-miranda-568182200' target="_blank" rel='noopener'> 
+                    <a href='https://www.linkedin.com/in/willyan-miranda-568182200' target="_blank" rel='noreferrer'> 
                         <div id="contact-card">
                             <i class='bx bxl-linkedin-square' id="contact-card-icon"></i>
 

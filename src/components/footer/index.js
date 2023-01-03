@@ -19,15 +19,15 @@ const Footer = () => {
                 </ul>
 
                 <div id="footer-social">
-                    <a href="https://www.instagram.com/lyan_nda/" id="footer-social-link" target="_blank" rel="noopener">
+                    <a href="https://www.instagram.com/lyan_nda/" id="footer-social-link" target="_blank" rel="noreferrer">
                         <i className="uil uil-instagram"></i>
                     </a>
 
-                    <a href="https://www.linkedin.com/in/willyan-miranda-568182200" id="footer-social-link" target="_blank" rel="noopener">
+                    <a href="https://www.linkedin.com/in/willyan-miranda-568182200" id="footer-social-link" target="_blank" rel="noreferrer">
                         <i className="uil uil-linkedin"></i>
                     </a>
 
-                    <a href="https://github.com/willyanmiranda" id="footer-social-link" target="_blank" rel="noopener">
+                    <a href="https://github.com/willyanmiranda" id="footer-social-link" target="_blank" rel="noreferrer">
                         <i className="uil uil-github-alt"></i>
                     </a>
                 </div>
