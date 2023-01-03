@@ -5,11 +5,8 @@
 #contact-container {
     @include container;
     @include grid;
-    margin-right: 47%;
-    margin-left: 53%;
     grid-template-columns: repeat(2, max-content);
     justify-content: center;
-    column-gap: 6rem;
     padding-bottom: 3rem;
 }
 
