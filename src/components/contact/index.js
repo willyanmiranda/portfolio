@@ -13,6 +13,7 @@ const Contact = () => {
 
     return (
         <section id="contact">
+            
             <h2 id="section-title">Contato</h2>
             <span id="section-subtitle">Entre em contato</span>
 
@@ -57,6 +58,7 @@ const Contact = () => {
 
             </div>
             {copy ? <span id='contact-alert'>Copiado para a área de transferência</span> : "" }
+             
         </section>
     )
 }

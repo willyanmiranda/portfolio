@@ -55,3 +55,34 @@
 #skills-level {
     font-size: $tiny-font-size;
 }
+
+@media screen and (max-width: 992px) {
+#skills-container {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    grid-template-columns: max-content;
+    row-gap: 2rem;
+}
+}
+
+@media screen and (max-width: 576px) {
+   #skill-container {
+     grid-template-columns: 1fr;
+     margin-left: 1rem;
+     margin-right: 1rem;
+   }
+
+   #skills-content {
+    padding: 1.5rem;
+   }
+}
+
+@media screen and (max-width: 350px) {
+    #skills-box {
+        column-gap: 1.25rem;
+    }
+
+    #skills-name {
+        font-size: $small-font-size;
+    }
+}

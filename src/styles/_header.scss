@@ -64,3 +64,78 @@
 
     }
 }
+
+@media screen and (max-width: 992px) {
+#nav-container {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+}
+
+@media screen and (max-width: 768px) {
+    #header {
+        top: initial;
+        bottom: 0;
+    }
+
+    #nav-container {
+        height: 3rem;
+    }
+
+    #nav-menu {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        padding: 2rem 1.5rem 4rem;
+        border-radius: 1.5rem 1.5rem 0 0;
+        transition: .3s;
+    }
+
+    #nav-list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+
+    #nav-icon{
+        display: block;
+        font-size: 1.2rem;
+    }
+
+    #nav-close {
+        display: block;
+        position: absolute;
+        right: 1.3rem;
+        bottom: .5rem;
+        font-size: 1.5rem;
+        cursor: pointer;
+        color: $title-color;
+    }
+
+    #nav-toggle {
+        display: block;
+        font-size: 1.1rem;
+        cursor: pointer;
+    }
+
+}
+
+@media screen and (max-width: 350px) {
+
+#nav-container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#nav-menu {
+    padding: 2rem 0.25rem 4rem;
+}
+
+#nav-list {
+    column-gap: 0;
+}
+}
+
+
