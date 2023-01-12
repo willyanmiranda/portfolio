@@ -1,12 +1,24 @@
 import React from "react";
+import { useState } from "react";
 
 const Header = () => {
+
+    const [toggle, setToggle] = useState(false)
+
+    const openMenu = () => {
+        if(toggle === false) {
+            setToggle(true)
+        } else {
+            setToggle(false)
+        }
+    }
+
     return (
        <header id="header">
         <nav id="nav-container">
             <span id="nav-logo">Willyan</span>
 
-            <div id="nav-menu">
+            <div id={toggle ? "nav-menu" : "nav-menu-close"}>
                 <ul id="nav-list">
                     <li id="nav-item">
                         <a href="#home" id="nav-link">
@@ -40,11 +52,11 @@ const Header = () => {
                     </li>
                 </ul>
 
-                <i className="uil uil-times" id="nav-close"></i>
+                <i className="uil uil-times" id="nav-close" onClick={openMenu}></i>
             </div>
 
             <div id="nav-toggle">
-                <i className="uil uil-apps"></i>
+                <i className="uil uil-apps" onClick={openMenu}></i>
             </div>
         </nav>
 

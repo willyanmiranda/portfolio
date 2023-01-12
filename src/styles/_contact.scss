@@ -5,6 +5,7 @@
 #contact-container {
     @include container;
     @include grid;
+    margin-left: 290px;
     grid-template-columns: repeat(2, max-content);
     justify-content: center;
     padding-bottom: 3rem;
