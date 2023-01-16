@@ -3,7 +3,7 @@ import Work2 from "../../../assets/finance-img.jpg";
 import Work3 from "../../../assets/countries-img.jpg";
 import Work4 from "../../../assets/form-img.jpg";
 import Work5 from "../../../assets/calc-img.jpg";
-import Work6 from "../../../assets/space-img.jpg";
+import Work6 from "../../../assets/pokedex-shot.jpg";
 
 
 export const projectsData = [
@@ -50,8 +50,10 @@ export const projectsData = [
     {
       id: 6,
       image: Work6,
-      title: "Space site",
+      title: "Pokédex",
       category: "site",
+      git: "https://github.com/willyanmiranda/PROJECT-POKEDEX",
+      link: "https://clever-kheer-002882.netlify.app/"
     },
   ];
 
