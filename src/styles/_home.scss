@@ -5,7 +5,7 @@
 #home-container {
     @include container;
     @include grid;
-    row-gap: 7rem;
+    row-gap: 4rem;
 }
 
 #home-content {
@@ -82,14 +82,15 @@
 }
 
 #home-img {
-    background: url(../assets/avatar-pic.jpg);
+    background: url(../assets/will-pic.jpg);
+    filter: grayscale(100%);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     order: 1;
     justify-self: center;
     width: 300px;
-    height: 300px;
+    height: 400px;
     animation: profile__animate 8s ease-in-out infinite 1s;
 }
 
