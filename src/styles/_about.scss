@@ -105,12 +105,29 @@
 }
 
 @media screen and (max-width: 576px) {
-    #about-info {
-        grid-template-columns: repeat(3, 1fr);
+    #about-container {
+        display: flex;
+        flex-direction: column;
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
-
+    
+    #about-info {
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+    
+    #about-box {
+        width: 250px;
+    }
+    
     #about-description {
-        padding: 0;
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+    
+    #button-about {
+        margin-top: 20px;
     }
 
     #about-subtitle {

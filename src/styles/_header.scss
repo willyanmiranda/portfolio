@@ -133,6 +133,21 @@
 
 }
 
+@media screen and (max-width: 576px) {
+    #nav-container {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    
+    #nav-menu {
+        padding: 2rem 0.25rem 4rem;
+    }
+    
+    #nav-list {
+        column-gap: 0;
+    }
+}
+
 @media screen and (max-width: 350px) {
 
 #nav-container {
