@@ -1,7 +1,7 @@
 import Work1 from "../../../assets/spa-img.jpg";
 import Work2 from "../../../assets/finance-img.jpg";
 import Work3 from "../../../assets/countries-img.jpg";
-import Work4 from "../../../assets/form-img.jpg";
+import Work4 from "../../../assets/coffe-delivery.jpg";
 import Work5 from "../../../assets/calc-img.jpg";
 import Work6 from "../../../assets/pokedex-shot.jpg";
 
@@ -26,7 +26,7 @@ export const projectsData = [
     {
       id: 3,
       image: Work3,
-      title: "Paises pelo mundo",
+      title: "Países pelo mundo",
       category: "site",
       link: "https://grand-cendol-dfb5db.netlify.app/",
       git: "https://github.com/LYAN041/project-flags",
@@ -34,10 +34,10 @@ export const projectsData = [
     {
       id: 4,
       image: Work4,
-      title: "Formulario multi-step",
+      title: "Coffee Delivery",
       category: "site",
-      git: "https://github.com/LYAN041/multi-step-form",
-      link: "https://resilient-cactus-c5c958.netlify.app/",
+      git: "https://github.com/willyanmiranda/coffee-delivery",
+      link: "https://inquisitive-croquembouche-f36437.netlify.app/",
     },
     {
       id: 5,
