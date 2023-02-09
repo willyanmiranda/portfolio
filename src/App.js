@@ -12,18 +12,18 @@ import Portfolio from "./components/portfolio";
 function App() {
   return (
     <>
-      <Header />
       <main id="main">
+        <Header />
         <Home />
         <About />
         <Skills />
         <Certificates />
         <Portfolio />
         <Contact />
-      </main>
-
         <Footer />
         <ScrollUp />
+      </main>
+
     </>
   );
 }
