@@ -1,14 +1,19 @@
 const WorkItems = ({item}) => {
     return(
-        <a href={item.link} target="_blank" rel="noreferrer">
             <div id="work-card" key={item.id}>
-                <img src={item.image} id="work-img" alt="works"/>
+                <div className="img-container">
+                    <img src={item.image} id="work-img" alt="works"/>
+                    <div className="icons-container">
+                        <a href={item.git} id="icon-portfolio" target="_blank" rel="noreferrer">
+                            <i className="uil uil-github-alt"></i>
+                        </a>
+                        <a href={item.link} id="icon-portfolio" target="_blank" rel="noreferrer">
+                            <i className="uil uil-eye"></i>
+                        </a>
+                    </div>
+                </div>
                 <h3 id="work-title">{item.title}</h3>
-                <a href={item.git} id="work-button" target="_blank" rel="noreferrer">
-                    Repositório Github <i className="bx bx-right-arrow-alt" id="work-button-icon"></i>
-                </a>
             </div>
-        </a>
     )
 }
 

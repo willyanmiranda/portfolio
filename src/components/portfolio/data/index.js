@@ -1,8 +1,8 @@
 import Work1 from "../../../assets/spa-img.jpg";
 import Work2 from "../../../assets/finance-img.jpg";
-import Work3 from "../../../assets/countries-img.jpg";
+import Work3 from "../../../assets/rinocerontes-print.jpg";
 import Work4 from "../../../assets/coffe-delivery.jpg";
-import Work5 from "../../../assets/calc-img.jpg";
+import Work5 from "../../../assets/pomodoro-print.jpg";
 import Work6 from "../../../assets/pokedex-shot.jpg";
 
 
@@ -11,7 +11,7 @@ export const projectsData = [
       id: 1,
       image: Work1,
       title: "Botânica Spa",
-      category: "app",
+      category: "site",
       link: "https://profound-taiyaki-26417e.netlify.app/",
       git: "https://github.com/LYAN041/spa-system",
     },
@@ -26,10 +26,10 @@ export const projectsData = [
     {
       id: 3,
       image: Work3,
-      title: "Países pelo mundo",
-      category: "site",
-      link: "https://grand-cendol-dfb5db.netlify.app/",
-      git: "https://github.com/LYAN041/project-flags",
+      title: "Rinocerontes task manager",
+      category: "app",
+      link: "https://rinocerontes-app.netlify.app/",
+      git: "https://github.com/willyanmiranda/project-rinotes",
     },
     {
       id: 4,
@@ -42,10 +42,10 @@ export const projectsData = [
     {
       id: 5,
       image: Work5,
-      title: "Calculadora",
+      title: "Pomodoro",
       category: "app",
-      git: "https://github.com/LYAN041/Calculator",
-      link: "https://beamish-valkyrie-438cac.netlify.app/",
+      git: "https://github.com/willyanmiranda/Pomodoro-app",
+      link: "https://pomodoro-appwill.netlify.app/",
     },
     {
       id: 6,
