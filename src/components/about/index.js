@@ -1,7 +1,7 @@
 import React from "react";
 import AboutImg from "../../assets/will-pic.jpg";
 import Info from "./info.js";
-import CV from "../../assets/willyan-CV.pdf";
+import CV from "../../assets/curriculo-willyan.pdf";
 
 const About = () => {
     return (
@@ -18,7 +18,7 @@ const About = () => {
                     <p id="about-description">
                         Meu primeiro contato com a programação foi em 2020, quando eu ainda estava no ensino médio, 
                         desde então não parei de estudar sobre o assunto.
-                        Em 2022 iniciei o curso de engenharia de software na PUC-PR.
+                        Em 2022 iniciei o curso de engenharia de software na Uninter.
                         Na faculdade encontrei minha vocação e tive a certeza de que essa é a área profissional que quero seguir na minha vida.
                     </p>
 
