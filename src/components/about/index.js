@@ -1,5 +1,5 @@
 import React from "react";
-import AboutImg from "../../assets/will-pic.jpg";
+import AboutImg from "../../assets/fotin-will.jpg";
 import Info from "./info.js";
 import CV from "../../assets/curriculo-willyan.pdf";
 

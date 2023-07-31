@@ -7,7 +7,7 @@ const Data = () => {
                 Willyan Miranda
             </h1>
             <h3 id="home-subtitle">Desenvolvedor Front-end</h3>
-            <p id="home-description">Olá! Meu nome é Willyan Miranda. Sou desenvolvedor Front-End React e estou em busca da minha primeira experiência profissional.
+            <p id="home-description">Olá! Meu nome é Willyan Miranda. Sou um programador Front-end apaixonado por tecnologia e com experiência em desenvolvimento web.
             </p>
 
             <a href="#contact" id="button-flex">
