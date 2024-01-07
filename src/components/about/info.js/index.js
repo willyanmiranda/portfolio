@@ -19,7 +19,7 @@ const Info = () => {
                 <i className="bx bx-user" id="about-icon"></i>
 
                 <h3 id="about-title">Idade</h3>
-                <span id="about-subtitle">20 anos</span>
+                <span id="about-subtitle">21 anos</span>
             </div>
         </div>
     )

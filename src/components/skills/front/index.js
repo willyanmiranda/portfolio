@@ -1,7 +1,6 @@
 const FrontEnd = () => {
     return(
         <div id="skills-content">
-            <h3 id="skills-title">Linguagens</h3>
 
             <div id="skills-box">
                 <div id="skills-group">
@@ -18,7 +17,7 @@ const FrontEnd = () => {
 
                         <div>
                             <h3 id="skills-name">CSS</h3>
-                            <span id="skills-level">Intermediário</span>
+                            <span id="skills-level">Avançado</span>
                         </div>
                     </div>
                     <div id="skills-data">
@@ -26,6 +25,15 @@ const FrontEnd = () => {
 
                         <div>
                             <h3 id="skills-name">TypeScript</h3>
+                            <span id="skills-level">Intermediário</span>
+                        </div>
+                    </div>
+
+                    <div id="skills-data">
+                        <i className="bx bx-badge-check"></i>
+
+                        <div>
+                            <h3 id="skills-name">SQL</h3>
                             <span id="skills-level">Básico</span>
                         </div>
                     </div>
@@ -38,7 +46,16 @@ const FrontEnd = () => {
 
                         <div>
                             <h3 id="skills-name">Javascript</h3>
-                            <span id="skills-level">Intermediário</span>
+                            <span id="skills-level">Avançado</span>
+                        </div>
+                    </div>
+
+                    <div id="skills-data">
+                        <i className="bx bx-badge-check"></i>
+
+                        <div>
+                            <h3 id="skills-name">Python</h3>
+                            <span id="skills-level">Avançado</span>
                         </div>
                     </div>
 
@@ -47,17 +64,19 @@ const FrontEnd = () => {
 
                         <div>
                             <h3 id="skills-name">SASS</h3>
-                            <span id="skills-level">intermediário</span>
+                            <span id="skills-level">Intermediário</span>
                         </div>
                     </div>
+
                     <div id="skills-data">
                         <i className="bx bx-badge-check"></i>
 
                         <div>
-                            <h3 id="skills-name">MySQL</h3>
-                            <span id="skills-level">Básico</span>
+                            <h3 id="skills-name">Bootstrap</h3>
+                            <span id="skills-level">Intermediário</span>
                         </div>
                     </div>
+                    
                 </div>
             </div>
         </div>

@@ -1,7 +1,6 @@
 const BackEnd = () => {
     return(
         <div id="skills-content">
-            <h3 id="skills-title">Frameworks</h3>
 
             <div id="skills-box">
                 <div id="skills-group">
@@ -17,8 +16,16 @@ const BackEnd = () => {
                         <i className="bx bx-badge-check"></i>
 
                         <div>
-                            <h3 id="skills-name">Redux</h3>
+                            <h3 id="skills-name">MySQL</h3>
                             <span id="skills-level">Básico</span>
+                        </div>
+                    </div>
+                    <div id="skills-data">
+                        <i className="bx bx-badge-check"></i>
+
+                        <div>
+                            <h3 id="skills-name">Redux</h3>
+                            <span id="skills-level">Intermediário</span>
                         </div>
                     </div>
                     <div id="skills-data">
@@ -32,12 +39,21 @@ const BackEnd = () => {
                 </div>
 
                 <div id="skills-group">
+                   
                     <div id="skills-data">
                         <i className="bx bx-badge-check"></i>
 
                         <div>
-                            <h3 id="skills-name">Bootstrap</h3>
-                            <span id="skills-level">Intermediário</span>
+                            <h3 id="skills-name">Node.js</h3>
+                            <span id="skills-level">Avançado</span>
+                        </div>
+                    </div>
+                    <div id="skills-data">
+                        <i className="bx bx-badge-check"></i>
+
+                        <div>
+                            <h3 id="skills-name">Mongo Db</h3>
+                            <span id="skills-level">Básico</span>
                         </div>
                     </div>
                     <div id="skills-data">
