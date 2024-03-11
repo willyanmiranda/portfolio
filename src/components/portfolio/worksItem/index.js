@@ -4,9 +4,11 @@ const WorkItems = ({item}) => {
                 <div className="img-container">
                     <img src={item.image} id="work-img" alt="works"/>
                     <div className="icons-container">
-                        <a href={item.git} id="icon-portfolio" target="_blank" rel="noreferrer">
-                            <i className="uil uil-github-alt"></i>
-                        </a>
+                        {
+                            item.git &&  <a href={item.git} id="icon-portfolio" target="_blank" rel="noreferrer">
+                                            <i className="uil uil-github-alt"></i>
+                                        </a>
+                        }
                         <a href={item.link} id="icon-portfolio" target="_blank" rel="noreferrer">
                             <i className="uil uil-eye"></i>
                         </a>

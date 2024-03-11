@@ -1,12 +1,36 @@
 import Work1 from "../../../assets/spa-img.jpg";
-import Work2 from "../../../assets/finance-img.jpg";
+import Work2 from "../../../assets/projeto-financeiro.png";
 import Work3 from "../../../assets/rinocerontes-print.jpg";
 import Work4 from "../../../assets/coffe-delivery.jpg";
 import Work5 from "../../../assets/pomodoro-print.jpg";
 import Work6 from "../../../assets/pokedex-shot.jpg";
+import Work7 from "../../../assets/projeto-assine.png";
+import Work8 from "../../../assets/projeto-cineinsite.png";
+import Work9 from "../../../assets/projeto-imobilist.png";
 
 
 export const projectsData = [
+    {
+      id: 7,
+      image: Work7,
+      title: "Assine",
+      category: "site",
+      link: "https://atarde.com.br/assine/assine-home",
+    },
+    {
+      id: 8,
+      image: Work8,
+      title: "CineInsite",
+      category: "site",
+      link: "https://atarde.com.br/cineinsite/home",
+    },
+    {
+      id: 9,
+      image: Work9,
+      title: "Folha Imobilist",
+      category: "site",
+      link: "https://imoveis.folhadelondrina.com.br/",
+    },
     {
       id: 1,
       image: Work1,

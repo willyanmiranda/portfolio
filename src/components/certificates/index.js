@@ -60,6 +60,17 @@ const Certificates = () => {
                     </div>
                 </a>
 
+                <a href="https://www.credly.com/badges/250a3aed-5f1a-4bc9-a212-0bd283dc0276/public_url" target="_blank" rel="noreferrer">
+                    <div id="certificates-content">
+                        <div>
+                            <img src="https://images.credly.com/size/220x220/images/53f37f83-04a1-4935-9b1e-21a99cc6e1b2/CyberOpsAssoc.png" alt="profile" id="certificates-icon" />
+                            <h3 id="certificates-title">CyberOps Associate</h3>
+                        </div>
+
+                        <span id="certificates-button">Ver mais <i className="uil uil-arrow-right" id="certificates-button-icon"></i> </span>
+                    </div>
+                </a>
+
                 <a href="https://www.credly.com/badges/7a0ab715-bb6a-494e-82ca-c55919b8ed71/public_url" target="_blank" rel="noreferrer">
                     <div id="certificates-content">
                         <div>
@@ -70,6 +81,7 @@ const Certificates = () => {
                         <span id="certificates-button">Ver mais <i className="uil uil-arrow-right" id="certificates-button-icon"></i> </span>
                     </div>
                 </a>
+               
             </div>
         </section>
     )
