@@ -3,7 +3,7 @@ import Work2 from "../../../assets/projeto-financeiro.png";
 import Work3 from "../../../assets/rinocerontes-print.jpg";
 import Work4 from "../../../assets/coffe-delivery.jpg";
 import Work5 from "../../../assets/pomodoro-print.jpg";
-import Work6 from "../../../assets/pokedex-shot.jpg";
+import Work6 from "../../../assets/projeto-markdown.png";
 import Work7 from "../../../assets/projeto-assine.png";
 import Work8 from "../../../assets/projeto-cineinsite.png";
 import Work9 from "../../../assets/projeto-imobilist.png";
@@ -74,10 +74,10 @@ export const projectsData = [
     {
       id: 6,
       image: Work6,
-      title: "Pokédex",
-      category: "site",
-      git: "https://github.com/willyanmiranda/PROJECT-POKEDEX",
-      link: "https://clever-kheer-002882.netlify.app/"
+      title: "Markdown app",
+      category: "app",
+      git: "https://github.com/willyanmiranda/markdown-app",
+      link: "https://markdown-app-9u9r.vercel.app/"
     },
   ];
 
