@@ -32,6 +32,22 @@ export const projectsData = [
       link: "https://imoveis.folhadelondrina.com.br/",
     },
     {
+      id: 3,
+      image: Work3,
+      title: "Rinocerontes task manager",
+      category: "app",
+      link: "https://rinocerontes-app.netlify.app/",
+      git: "https://github.com/willyanmiranda/project-rinotes",
+    },
+    {
+      id: 6,
+      image: Work6,
+      title: "Markdown app",
+      category: "app",
+      git: "https://github.com/willyanmiranda/markdown-app",
+      link: "https://markdown-app-9u9r.vercel.app/"
+    },
+    {
       id: 1,
       image: Work1,
       title: "Botânica Spa",
@@ -48,14 +64,6 @@ export const projectsData = [
       git: "https://github.com/LYAN041/finance-control",
     },
     {
-      id: 3,
-      image: Work3,
-      title: "Rinocerontes task manager",
-      category: "app",
-      link: "https://rinocerontes-app.netlify.app/",
-      git: "https://github.com/willyanmiranda/project-rinotes",
-    },
-    {
       id: 4,
       image: Work4,
       title: "Coffee Delivery",
@@ -70,14 +78,6 @@ export const projectsData = [
       category: "app",
       git: "https://github.com/willyanmiranda/Pomodoro-app",
       link: "https://pomodoro-appwill.netlify.app/",
-    },
-    {
-      id: 6,
-      image: Work6,
-      title: "Markdown app",
-      category: "app",
-      git: "https://github.com/willyanmiranda/markdown-app",
-      link: "https://markdown-app-9u9r.vercel.app/"
     },
   ];
 
