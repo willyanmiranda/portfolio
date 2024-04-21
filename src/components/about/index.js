@@ -1,7 +1,7 @@
 import React from "react";
-import AboutImg from "../../assets/fotin-will.jpg";
+import AboutImg from "../../assets/20240421_123940.png";
 import Info from "./info.js";
-import CV from "../../assets/Willyan-front-end-2024.docx.pdf";
+import CV from "../../assets/Dev_Willyan.docx.pdf";
 
 const About = () => {
     return (
@@ -16,7 +16,7 @@ const About = () => {
                     <Info />
 
                     <p id="about-description">
-                        Minha jornada no mundo da programação começou em 2020, durante o ensino médio. Desde então, tenho dedicado meu tempo ao estudo contínuo desse fascinante campo. Em 2022, iniciei o curso de Engenharia de Software na PUCPR, onde encontrei minha verdadeira vocação e reafirmei minha paixão por essa área profissional. Ao longo desses últimos dois anos, venho adquirindo experiência como front end, trabalhando em projetos desafiadores e aprimorando minhas habilidades nesta especialidade. Essa trajetória tem sido fundamental para meu crescimento profissional e para a consolidação do meu perfil como desenvolvedor front end.
+                        Minha jornada no mundo da programação começou em 2020, durante o ensino médio. Desde então, tenho dedicado meu tempo ao estudo contínuo desse fascinante campo. Em 2022, iniciei o curso de Engenharia de Software na PUCPR, onde encontrei minha verdadeira vocação e reafirmei minha paixão por essa área profissional. Ao longo desses últimos dois anos, venho adquirindo experiência como desenvolvedor front-end, trabalhando em projetos desafiadores e aprimorando minhas habilidades nesta especialidade. Essa trajetória tem sido fundamental para meu crescimento profissional e para a consolidação do meu perfil como desenvolvedor front-end.
                     </p>
 
                     <a download="" href={CV} id="button-about">

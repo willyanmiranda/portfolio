@@ -60,7 +60,7 @@ const BackEnd = () => {
                         <i className="bx bx-badge-check"></i>
 
                         <div>
-                            <h3 id="skills-name">Router-Dom</h3>
+                            <h3 id="skills-name">Next.js</h3>
                             <span id="skills-level">Intermediário</span>
                         </div>
                     </div>
