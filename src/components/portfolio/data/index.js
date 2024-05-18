@@ -7,9 +7,17 @@ import Work6 from "../../../assets/projeto-markdown.png";
 import Work7 from "../../../assets/projeto-assine.png";
 import Work8 from "../../../assets/projeto-cineinsite.png";
 import Work9 from "../../../assets/projeto-imobilist.png";
+import Work10 from "../../../assets/projeto-jpb.png";
 
 
 export const projectsData = [
+    {
+      id: 10,
+      image: Work10,
+      title: "Jornal da Paraíba",
+      category: "site",
+      link: "https://jornaldaparaiba.com.br",
+    },
     {
       id: 7,
       image: Work7,
