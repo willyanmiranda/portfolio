@@ -34,7 +34,7 @@ const FrontEnd = () => {
 
                         <div>
                             <h3 id="skills-name">SQL</h3>
-                            <span id="skills-level">Básico</span>
+                            <span id="skills-level">Avançado</span>
                         </div>
                     </div>
                     
@@ -63,7 +63,7 @@ const FrontEnd = () => {
                         <i className="bx bx-badge-check"></i>
 
                         <div>
-                            <h3 id="skills-name">SASS</h3>
+                            <h3 id="skills-name">C++</h3>
                             <span id="skills-level">Intermediário</span>
                         </div>
                     </div>
@@ -72,8 +72,8 @@ const FrontEnd = () => {
                         <i className="bx bx-badge-check"></i>
 
                         <div>
-                            <h3 id="skills-name">Bootstrap</h3>
-                            <span id="skills-level">Intermediário</span>
+                            <h3 id="skills-name">Linux</h3>
+                            <span id="skills-level">Avançado</span>
                         </div>
                     </div>
                     

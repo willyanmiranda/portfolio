@@ -16,7 +16,9 @@ const About = () => {
                     <Info />
 
                     <p id="about-description">
-                        Minha jornada no mundo da programação começou em 2020, durante o ensino médio. Desde então, tenho dedicado meu tempo ao estudo contínuo desse fascinante campo. Em 2022, iniciei o curso de Engenharia de Software na PUCPR, onde encontrei minha verdadeira vocação e reafirmei minha paixão por essa área profissional. Ao longo desses últimos dois anos, venho adquirindo experiência como desenvolvedor front-end, trabalhando em projetos desafiadores e aprimorando minhas habilidades nesta especialidade. Essa trajetória tem sido fundamental para meu crescimento profissional e para a consolidação do meu perfil como desenvolvedor front-end.
+                    Sou um desenvolvedor front-end em transição para a área de cibersegurança, combinando minha experiência em desenvolvimento com uma paixão crescente por proteger dados e sistemas contra ameaças cibernéticas. Atualmente, estou cursando Bacharelado em  Engenharia de Software, o que me proporciona uma base sólida e abrangente para entender e resolver problemas complexos no campo da cibersegurança. 
+
+Minha meta é utilizar minha experiência como desenvolvedor e minhas habilidades técnicas para contribuir na proteção de organizações contra ameaças. Estou entusiasmado para colaborar com equipes de segurança, aprender continuamente e aplicar meus conhecimentos para garantir a segurança e integridade de sistemas e informações.
                     </p>
 
                     <a download="" href={CV} id="button-about">
