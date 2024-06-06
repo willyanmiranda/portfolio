@@ -6,8 +6,8 @@ const Data = () => {
             <h1 id="home-title">
                 Willyan Miranda
             </h1>
-            <h3 id="home-subtitle">Analista de Segurança</h3>
-            <p id="home-description">Olá! Meu nome é Willyan Miranda. Sou um analista de segurança apaixonado por tecnologia e com experiência em desenvolvimento web.
+            <h3 id="home-subtitle">Desenvolvedor Front-end</h3>
+            <p id="home-description">Olá! Meu nome é Willyan Miranda. Sou um desenvolvedor Front-end apaixonado por tecnologia e com experiência em desenvolvimento web.
             </p>
 
             <a href="#contact" id="button-flex">
