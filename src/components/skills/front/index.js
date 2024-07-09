@@ -33,7 +33,7 @@ const FrontEnd = () => {
                         <i className="bx bx-badge-check"></i>
 
                         <div>
-                            <h3 id="skills-name">C#</h3>
+                            <h3 id="skills-name">Tailwind CSS</h3>
                             <span id="skills-level">Intermediário</span>
                         </div>
                     </div>
