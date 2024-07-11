@@ -16,7 +16,7 @@ const About = () => {
                     <Info />
 
                     <p id="about-description">
-                        Minha jornada no mundo da programação começou em 2020, durante o ensino médio. Desde então, tenho dedicado meu tempo ao estudo contínuo desse fascinante campo. Em 2022, iniciei o curso de Engenharia de Software na PUCPR, onde encontrei minha verdadeira vocação e reafirmei minha paixão por essa área profissional. Ao longo desses últimos dois anos, venho adquirindo experiência como desenvolvedor front-end, trabalhando em projetos desafiadores e aprimorando minhas habilidades nesta especialidade. Essa trajetória tem sido fundamental para meu crescimento profissional e para a consolidação do meu perfil como desenvolvedor front-end.
+                        Minha jornada no mundo da programação começou em 2020, durante o ensino médio. Desde então, tenho dedicado meu tempo ao estudo contínuo desse fascinante campo. Em 2022, iniciei o curso de Engenharia de Software, onde encontrei minha verdadeira vocação e reafirmei minha paixão por essa área profissional. Ao longo desses últimos dois anos, venho adquirindo experiência como desenvolvedor front-end, trabalhando em projetos desafiadores e aprimorando minhas habilidades nesta especialidade. Essa trajetória tem sido fundamental para meu crescimento profissional e para a consolidação do meu perfil como desenvolvedor front-end.
                     </p>
 
                     <a download="" href={CV} id="button-about">
