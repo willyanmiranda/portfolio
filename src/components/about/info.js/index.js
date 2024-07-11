@@ -12,7 +12,7 @@ const Info = () => {
                 <i className="bx bx-map" id="about-icon"></i>
 
                 <h3 id="about-title">Endereço</h3>
-                <span id="about-subtitle">Curitiba-PR</span>
+                <span id="about-subtitle">Pontal do Paraná</span>
             </div>
 
             <div id="about-box">
