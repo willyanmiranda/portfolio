@@ -12,14 +12,7 @@ const BackEnd = () => {
                             <span id="skills-level">Avançado</span>
                         </div>
                     </div>
-                    <div id="skills-data">
-                        <i className="bx bx-badge-check"></i>
-
-                        <div>
-                            <h3 id="skills-name">SQL</h3>
-                            <span id="skills-level">Básico</span>
-                        </div>
-                    </div>
+                   
                     <div id="skills-data">
                         <i className="bx bx-badge-check"></i>
 
@@ -32,7 +25,7 @@ const BackEnd = () => {
                         <i className="bx bx-badge-check"></i>
 
                         <div>
-                            <h3 id="skills-name">Git</h3>
+                            <h3 id="skills-name">Jest</h3>
                             <span id="skills-level">Avançado</span>
                         </div>
                     </div>
@@ -40,14 +33,6 @@ const BackEnd = () => {
 
                 <div id="skills-group">
                    
-                    <div id="skills-data">
-                        <i className="bx bx-badge-check"></i>
-
-                        <div>
-                            <h3 id="skills-name">Node.js</h3>
-                            <span id="skills-level">Intermediário</span>
-                        </div>
-                    </div>
                     <div id="skills-data">
                         <i className="bx bx-badge-check"></i>
 
@@ -66,11 +51,11 @@ const BackEnd = () => {
                     </div>
                     <div id="skills-data">
                         <i className="bx bx-badge-check"></i>
-
                         <div>
-                            <h3 id="skills-name">Github</h3>
+                            <h3 id="skills-name">Testing Library</h3>
                             <span id="skills-level">Avançado</span>
                         </div>
+
                     </div>
                 </div>
             </div>

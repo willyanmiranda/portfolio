@@ -1,7 +1,6 @@
 import "./styles/main.scss";
 import Header from "./components/header";
 import Home from "./components/home";
-import About from "./components/about";
 import Skills from "./components/skills";
 import Certificates from "./components/certificates";
 import Contact from "./components/contact";
@@ -15,7 +14,6 @@ function App() {
       <main id="main">
         <Header />
         <Home />
-        <About />
         <Skills />
         <Certificates />
         <Portfolio />
