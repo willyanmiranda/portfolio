@@ -81,6 +81,17 @@ const Certificates = () => {
                         <span id="certificates-button">Ver mais <i className="uil uil-arrow-right" id="certificates-button-icon"></i> </span>
                     </div>
                 </a>
+                
+                <a href="https://www.credly.com/badges/f29cf57e-6d31-4917-aa35-90b11bc62505/public_url" target="_blank" rel="noreferrer">
+                    <div id="certificates-content">
+                        <div>
+                            <img src="https://images.credly.com/size/680x680/images/0bf0f2da-a699-4c82-82e2-56dcf1f2e1c7/image.png" alt="profile" id="certificates-icon" />
+                            <h3 id="certificates-title">Google Cybersecurity Certificate</h3>
+                        </div>
+
+                        <span id="certificates-button">Ver mais <i className="uil uil-arrow-right" id="certificates-button-icon"></i> </span>
+                    </div>
+                </a>
                
             </div>
         </section>
