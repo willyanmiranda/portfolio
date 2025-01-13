@@ -8,6 +8,7 @@ import Work7 from "../../../assets/projeto-assine.png";
 import Work8 from "../../../assets/projeto-cineinsite.png";
 import Work9 from "../../../assets/projeto-imobilist.png";
 import Work10 from "../../../assets/projeto-jpb.png";
+import Work11 from "../../../assets/projeto-devquiz.png"
 
 
 export const projectsData = [
@@ -54,6 +55,14 @@ export const projectsData = [
       category: "app",
       git: "https://github.com/willyanmiranda/markdown-app",
       link: "https://markdown-app-9u9r.vercel.app/"
+    },
+    {
+      id: 11,
+      image: Work11,
+      title: "DevQuiz",
+      category: "app",
+      git: "https://dev-quiz-lovat.vercel.app/",
+      link: "https://dev-quiz-lovat.vercel.app/"
     },
     {
       id: 1,
